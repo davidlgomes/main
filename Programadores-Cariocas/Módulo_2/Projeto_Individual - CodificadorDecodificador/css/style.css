@@ -1,0 +1,195 @@
+body{    
+    background-color: grey;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
+#input_deslocamento{
+    color: silver;
+    border-radius: 5px;
+    background-color: black;
+}
+#label_deslocamento{
+    margin-top: 50px;
+    color:silver;
+}
+select{
+    background-color: black;
+    color: silver;
+}
+.border{
+    border: 5px solid white;
+    min-height:100vh;
+    width: 90%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: black;
+    color:silver;
+    margin:0;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    margin-top: 0;
+}
+.border h1 a{
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+}
+.border .label_acao{
+        display:flex;
+        flex-basis: 100%;
+}
+.border .div_acao .label_acao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 8px;
+}
+.border .div_acao{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+}
+.border .div_acao .opcoes_acao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.border .opcao_codificar{
+    margin-right: 10px;
+}
+input[type="radio"]{
+    background-color: green;
+    color: white;
+}
+.border .algoritmo_box{
+    margin-top: 50px;
+}
+.border .item_a_ser_codificado{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.border .item_codificado{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.border h1{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.border .acao_realizada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border .algoritmo{
+    background-color: black;
+    color: white;
+    border: #b0e0e6;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border .acao{
+    display: flex;
+    flex-direction: row;
+}
+.border .algoritmo_box{
+    
+    display: flex;
+    flex-direction: row;
+}
+.border footer{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border footer a{
+    font-size: 100%;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+a:visited{
+    font-size: 100%;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+textarea{
+    resize: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    border: silver solid;
+    border-radius: 40px;
+}
+.easyCriptography{
+    padding-top: 0;
+    width:100%; 
+    height: 120px;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DavidLopesGomes {
+    width:80px; 
+    height:80px;
+    border-radius:50%;
+    border: 1px solid white;
+    
+
+}
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+        resize: none;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./imagens/PowerSun.jpg" type="image/jpg">
+    <title>PowerSun</title>
+</head>
+<body>
+    <div class="barra_navegacao">
+        <a href="index.html"><img  class= "power_sun" src="./imagens/PowerSun.jpg" alt="logo"></a>
+        <div class="menu">
+            <a href = "quem_somos.html">Quem somos?</a>
+            <a href = "servicos.html">Serviços</a>
+            <a href = "equipe.html">Equipe</a>
+            <a href = "contato.html">Contato</a>
+        </div>
+    </div>
+    <h1 class="feedback">Feedback</h1>
+    <form method="POST"> <!-- formulário para envio de mensagens-->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu Nome aqui*" required>
+        <label for="e-mail">E-mail:</label>
+        <input type="e-mail" id="e-mail" name="e-mail" placeholder="Digite seu e-mail*" required>
+        <label for="servico">Serviço:</label>
+        <select name="servico" id="servico">
+            <option value="basico">Básico</option>
+            <option value="medio">Médio</option>
+            <option value="premium">Premium</option>
+        </select>
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea><br>
+        <input type="submit" name="enviar" value="Enviar">    
+    </form>
+</body>
+</html>
